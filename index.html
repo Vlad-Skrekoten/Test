@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" c>
+        <meta name="viewport" c>
+        <title>Test</title>
+    </head>
+
+    <body>
+        <header class="header">
+            LOGO HERE
+        </header>
+        <main class="main">
+            <div class="cards">
+                <div class="card">
+                    <div class="card__block-left">
+                        <div class="card__title card__first">Sveta111, win!
+                            lottery gifts
+                        </div>
+                        <div class="card__content">
+                            We have a whole "Universe of Prizes" and we are ready to share great gifts with you! All you
+                            have to do to get them is win an exciting lottery that runs every day.
+                        </div>
+                        <button class="card__button">
+                            <a href="#" class="button__link">
+                                <div class="button__text">PLAY</div>
+                            </a>
+                        </button>
+                    </div>
+                    <div class="card__block-right">
+                        <div class="card__image"><img src="https://i.ibb.co/db65sjD/Imac.png" alt="gadget" width="210"
+                                height="210"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__block-left card__third">
+                        <div class="card__title">Become a champion in tournaments
+                        </div>
+                        <div class="card__content">
+                            We have a whole "Universe of Prizes" and we are ready to share great gifts with you! All you
+                            have to do to get them is win an exciting lottery that runs every day.
+                        </div>
+                        <button class="card__button">
+                            <a href="#" class="button__link">
+                                <div class="button__text">PLAY</div>
+                            </a>
+                        </button>
+                    </div>
+                    <div class="card__block-right">
+                        <div class="card__image"><img src="https://i.ibb.co/kXsHjxC/Tablet.png" alt="gadget" width="210"
+                                height="157"></div>
+                    </div>
+                </div>
+
+                <div class="card card__third">
+                    <div class="card__block-left">
+                        <div class="card__title">Claim your Bonuses
+                        </div>
+                        <div class="card__content">
+                            Generous gifts are waiting for you in the form of no deposit bonuses and free spins in hot
+                            slots.
+                        </div>
+                        <button class="card__button">
+                            <a href="#" class="button__link">
+                                <div class="button__text">TAKE</div>
+                            </a>
+                        </button>
+                    </div>
+                    <div class="card__block-right">
+                        <div class="card__image"><img src="https://i.ibb.co/rxbf6yF/Treasure.png" alt="gadget"
+                                width="210" height="210"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__text">If you have questions, please contact us:</div>
+            <div class="footer__text-data">
+                <div class="footer__text"><img src="https://i.ibb.co/8NHSmcm/mail-24px.png"
+                        alt="icon">support@support.email</div>
+                <div class="footer__text"><img src="https://i.ibb.co/MSHRpJj/phone-24px.png" alt="icon">1234566789</div>
+            </div>
+            <div class="line"></div>
+            <div class="footer__text-content">
+                Some games and bonuses may not be available in your country.
+            </div>
+            <div class="footer__text-end">You take all the credit for the fact that you have registered on our site.
+                For a return link with us, please send a copy to the whole sheet.
+                You can <a href="#" class="link">subscribe</a>
+            </div>
+        </footer>
+    </body>
+    <style type="text/css">
+        @media (max-width:500px) {
+            .card {
+                align-items: center !important;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: grid;
+            justify-content: center;
+        }
+
+        .header {
+            text-align: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+            font-weight: 700;
+            font-size: calc(20px + 12*(100vw / 1440));
+            padding: 30px 0;
+            background: url(https://i.ibb.co/cy0w5kx/white.png) center center;
+            background-repeat: no-repeat;
+            object-position: center;
+            background-size: cover;
+            transform: translateY(30px);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .main {
+            max-width: 600px;
+            width: 100%;
+            height: 1025px;
+            background-repeat: no-repeat;
+            object-position: center;
+            object-fit: cover;
+            background-image: url(https://i.ibb.co/B2Sb6Rn/bg.png);
+        }
+
+        .cards {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: auto;
+            justify-items: center;
+        }
+
+        .card {
+            margin-top: 20px;
+            background: linear-gradient(74.3deg, #00C6FB 0%, #005BEA 99.33%);
+            box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+            border-radius: 17px;
+            height: 280px;
+            color: #FFF;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: start;
+            width: 520px;
+        }
+
+        .card__title {
+            font-weight: 700;
+            font-size: calc(14px + 4 * (100vw / 1440));
+        }
+
+        .card__first {
+            max-width: 150px;
+            width: 100%;
+        }
+
+        .card__content {
+            font-weight: 400;
+            font-size: calc(12px + 4 * (100vw / 1440));
+        }
+
+
+        .card__button {
+            background: linear-gradient(90deg, #29323C 0%, #485563 100%);
+            box-shadow: 0px 16px 24px rgba(0, 56, 255, 0.1), 0px 2px 6px rgba(0, 56, 255, 0.08), 0px 0px 1px rgba(0, 56, 255, 0.08);
+            border-radius: 100px;
+            border: none;
+            max-width: 146px;
+            width: 100%;
+            height: calc(20px + 20 * (100vh / 1000));
+            font-weight: 700;
+            width: 100%;
+            font-size: calc(12px + 4 * (100vw / 1440));
+        }
+
+        .button__link {
+            text-decoration: none;
+            color: #FFF;
+        }
+
+        .card__block-left {
+            margin-top: 20px;
+            padding-left: 5%;
+            display: grid;
+            gap: 12px;
+            max-width: 260px;
+            width: 100%;
+        }
+
+        .card__block-right {
+            margin-top: 20px;
+        }
+
+        .card__third {
+            align-items: center;
+        }
+
+        .footer {
+            padding: 20px 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            color: #52575C;
+            display: grid;
+            justify-items: center;
+            transform: translateY(-65px);
+            background: #F9FAFF;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.06);
+
+        }
+
+        .footer__text-data {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding-top: 10px;
+            padding-bottom: 16px;
+        }
+
+        .footer__text {
+            display: grid;
+            grid-template-columns: max-content max-content;
+            gap: 8px;
+            justify-content: center;
+            align-items: center;
+            padding: 6px;
+        }
+
+        .line {
+            max-width: 520px;
+            width: 100%;
+            height: 1px;
+            background: #52575C;
+            display: flex;
+        }
+
+        .footer__text-content {
+            padding: 16px 0;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .footer__text-end {
+            max-width: 490px;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+
+</html>
